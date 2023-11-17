@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 70;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+    background-color:white;
+}
+
+.navbar{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    background-color: grey;
+}
+
+.nav-link{
+    margin: 0.6em;
+    border: 0.3em solid grey;
+    padding: 0.3em;
+    font-size: 1.4em;
+    transition: ease-out 2s all;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: white;
+}
+
+footer {
+   display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    background-color: grey;
+  } 
+    
+  footer p {
+    text-align: center;
+  }
+
+  

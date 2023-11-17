@@ -1,0 +1,33 @@
+header p{
+text-align: left;
+font-size: bold;
+}
+
+.floatRight{
+    float: right;
+    margin-left: 30px;
+}
+
+#project a{
+    background:white;
+    padding:25px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(218, 207, 207);
+    display: inline-block;
+    text-align:left;
+    margin: 50px 0;
+    border-radius: 6px;
+}
+
+
+article{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    background-color: black;
+    text-align: left;
+}
