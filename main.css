@@ -27,12 +27,12 @@ body {
     border: 0.3em solid grey;
     padding: 0.3em;
     font-size: 1.4em;
-    transition: ease-out 2s all;
+    transition: ease-out 1s all;
 }
 
 .nav-link:hover{
-    background-color: white;
-    color: white;
+    background-color: grey;
+    color: black;
 }
 
 footer {
